@@ -20,5 +20,5 @@ You can install it directly from the environment pack version file:
 pip install -r requirements.txt
 ```
 
-## 4.Training and Testing
+## 3.Training and Testing
 You can perform SOH prediction on two datasets in the two files: 'NASAMain.ipynb', 'CALCEMain.ipynb'. 
