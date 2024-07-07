@@ -1,0 +1,25 @@
+dataset_name: 'calce'
+n_itcn_layers : 3
+n_gru_layers : 2
+n_neurons : 7
+tau : 0.5                                                              
+T : 36
+len_window : 12
+kernel_list : [2, 3, 6]
+stride : 6
+itcn_d : 36
+ebd_d : 64
+gcn_d : 64
+lamda: 0.001
+n_steps : 1
+batch_size : 64
+lr : 0.01
+n_episodes : 400
+device : 'cpu'
+device_idx : 0
+pct_start : 0.3
+dataset_dir : 'data/CALCEDataset'
+test: ['CS2_35']
+val: ['CS2_35']
+size : [36,36,1]
+patience : 50

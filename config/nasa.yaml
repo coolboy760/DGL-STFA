@@ -1,0 +1,25 @@
+dataset_name: 'nasa'
+n_itcn_layers : 3
+n_gru_layers : 2
+n_neurons : 7
+tau : 0.5                                                              
+T : 12
+len_window : 6
+kernel_list : [2, 3, 6]
+stride : 3
+itcn_d : 12
+ebd_d : 64
+gcn_d : 64
+lamda : 0.001
+n_steps : 1
+batch_size : 64
+lr : 0.01
+n_episodes : 10
+device : 'cpu'
+device_idx : 0
+pct_start : 0.3
+dataset_dir : 'data/NASADataset'
+test: ['B0005']
+val: ['B0005']
+size : [12,12,1]
+patience : 50
